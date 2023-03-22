@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>a tribute page...</title>
+        <style media="screen">
+            body {
+                background-color: #000;
+                color: #fff;
+                margin: 0;
+                box-sizing: border-box;
+                padding: 0;
+                padding-right: 20px;
+                color: #555;
+                font-family: century gothic;
+            }
+            header ul {
+                display: flex;
+                flex-direction: row;
+            }
+            header {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                margin: 0;
+
+            }
+            header ul li {
+                display: block;
+                padding: 5px;
+                margin: 15px
+            }
+            header ul li a {
+                text-decoration: none;
+                color: #555;
+            }
+            header ul li a:hover {
+                color: #fff;
+            }
+            .main-content {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            .main-content main {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding: 10px;
+                margin-left: -10vh;
+                margin-top: 10vh;
+            }
+            .main-content main div:first-child p {
+                display: flex;
+                flex-direction: column;
+                font-size: 1.3em;
+            }
+            .main-content main div:first-child p span:first-child {
+                font-weight: bold;
+                font-size: 2em;
+            }
+            .main-content main div:first-child {
+                margin-bottom: 5vh;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#donamte">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="main-content">
+            <aside>
+                <img src="C:\New folder\images/albertEistein.jpg" alt=""/>
+            </aside>
+            <main>
+                <div>
+                    <p>
+                        A Tribute to
+                        <span>Albert Einstein</span>
+                        <span>1879-1955</span>
+                    </p>
+                </div>
+                <div>
+                    <q>
+                        We beloved family pay tribute t our father who was a theoretical scientist.
+                        He contributed to many scientic theories like the theory of relativity.
+                        He also formulated the equation for the mass energy equivalence i.e
+                        <em>
+                            E = mc<sup>2</sup>
+                        </em>
+                    </q>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
